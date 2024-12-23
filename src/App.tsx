@@ -16,6 +16,7 @@ function App() {
   const [isVisible, setIsVisible] = useState(false);
   const galleryRef = useRef(null);
 
+  console.log(ncpClientId);
   useEffect(() => {
     window.addEventListener('scroll', checkScrollPosition);
     return () => {
